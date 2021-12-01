@@ -17,48 +17,14 @@ End point is marked by a blank space at the borders of the maze. There can only 
 
 The number of bonus points is 0.
 
-0
-xxxxxxxxxxxxxxxxxxxxxx
-x   x   xx xx        x
-x     x     xxxxxxxxxx
-x x   xxx  xxxx xxx xx
-  x   x x xx   xxxx Sx
-x          xxx xx    x
-xxxxxxx x      xx  x x
-xxxxxxxxx  x x  xx   x
-x          x x  x x  x
-xxxxx x  x x x       x
-xxxxxxxxxxxxxxxxxxxxxx
+See maze1.txt in src folder for example.
 
 ## With bonus points
 
 The number of bonus points is 2.
-Bonus points are saved in the following format in separates lines: <x> <y> <value>.
+Bonus points are saved in the following format in separates lines: x y value.
 
-2
-9 18 -10
-15 18 -10
-x xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-x x   x   x   xx                       x
-x x x x x x x xx x xxxxxxxxxxxxxxxxxxx x
-x x x x x x x x  x x                   x
-x x x x x x x xx x x xxxxxxxxxxxxxxxxxxx
-x   x x x x x xx x x                   x
-x xxx   x   x     x xxxxxxxxxxxxxxxxxx x
-x  xxxxxxxxxxxxx xx x                  x
-x x    x  x    xxxx x xx  x xxxxxxxxxxxx
-xxx xx x  x xx      x    xx xx    x  xxx
-x           x x xx    xx xxx           x
-x  xxxxxxxxxxxxx              xxx  x   x
-x                xxxxxxxxxx xxx xx xx  x
-x xxxxxxxxxxxxxxxxx       x   x x      x
-x                xx xxxxx xxxxx xxxxx  x
-x xxxxxxxxxxxxxx      xxx              x
-x x            x  xxx xx  xxx xxxxxxxxxx
-x x xxxx xx xx xx xxx xxxxxxx          x
-x xxxxxx xx xx xx xxx       xxxxxxxxxxxx
-x              xx    xxxxx            Sx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+See maze6.txt in src folder for example.
   
 ## Algorithms
  
