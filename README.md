@@ -16,16 +16,45 @@ End point is marked by a blank space at the borders of the maze. There can only 
 ## Without bonus points
 
 The number of bonus points is 0.
-
-See maze1.txt in test folder for example.
-
+*Example input:*
+```
+0
+xxxxxxxxxxxxxxxxxxxxxx
+x   x   xx xx        x
+x     x     xxxxxxxxxx
+x x   xxx  xxxx xxx xx
+  x   x x xx   xxxx Sx
+x          xxx xx    x
+xxxxxxx x      xx  x x
+xxxxxxxxx  x x  xx   x
+x          x x  x x  x
+xxxxx x  x x x       x
+xxxxxxxxxxxxxxxxxxxxxx
+```
 ## With bonus points
 
 The number of bonus points is 2.
 Bonus points are saved in the following format in separates lines: x y value.
-
-See maze6.txt in test folder for example.
-  
+*Example input:*
+```
+5
+3 12 -5
+2 7 -10
+4 3 -5
+9 7 -5
+2 2 -7
+xxxxxxxxxxxxxxxxxxxxxx
+x   x   xx xx        x
+x     x+    xxxxxxxxxx
+x x   xxx  x+ x xxx xx
+  x   x x xx   xxxx Sx
+x          xxx xx    x
+xxxxxxx x      xx  x x
+xxxxxxxxx  x x  xx   x
+x          x x  x x  x
+xxxxx x  x x x       x
+xxxxxxxxxxxxxxxxxxxxxx
+```
 ## Algorithms
  
 BFS and DFS are not written to take bonus points into account. Therefore, they can solve the maze but will not consider those bonus points.
